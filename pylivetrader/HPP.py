@@ -1,4 +1,4 @@
-from quantopian.pipeline import Pipeline
+from pipeline_live.engine import LivePipelineEngine
 from pylivetrader.algorithm import attach_pipeline, pipeline_output
 from quantopian.pipeline.data.builtin import USEquityPricing
 from quantopian.pipeline.data import morningstar
